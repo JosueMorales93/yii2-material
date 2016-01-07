@@ -1,0 +1,58 @@
+{
+  "name": "maza",
+  "homepage": "https://github.com/wiisoft/maza",
+  "authors": [
+    "wiisoft <webdev@webmaker.today>"
+  ],
+  "description": "It's a fork MaterializeCSS framwork with Font Awesome anf other upgrades",
+  "version": "0.4",
+  "main": [
+    "css/animate.css",
+    "css/font-awesome.min.css",
+    "css/materialize-fix.css",
+    "fonts/FontAwesome.otf",
+    "fonts/fontawesome-webfont.eot",
+    "fonts/fontawesome-webfont.svg",
+    "fonts/fontawesome-webfont.ttf",
+    "fonts/fontawesome-webfonat.woff",
+    "fonts/fontawesome-webfont.woff2"
+  ],
+  "keywords": [
+    "css",
+    "js",
+    "sass",
+    "Materialize",
+    "FontAwesome",
+    "MaterializeCSS",
+    "MaterialDesign"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".gitignore",
+    "tmp/",
+    "favicon.ico",
+    "bower.json",
+    "README.md",
+    "image/", 
+    "**/*.html",
+    "**/*.zip",
+    "**/*.txt",
+    "**/.*",
+    "node_mod`ules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=2.1.1"
+  },
+  "_release": "f3ce7e6119",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f3ce7e61196840e75f9c70e2a3156592066380d4"
+  },
+  "_source": "git://github.com/wiisoft/maza.git",
+  "_target": "*",
+  "_originalSource": "maza"
+}
