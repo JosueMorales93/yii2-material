@@ -11,6 +11,22 @@ use yii\captcha\Captcha;
 $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<div class="col-md-12">
+    <div class="ibox">
+        <div class="ibox-content">
+            <table class="table table-stripped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
 <div class="site-contact">
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -51,9 +67,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     <?= $form->field($model, 'body')->textArea(['rows' => 6]) ?>
 
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                    ]) ?>
+                    
 
                     <div class="form-group">
                         <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>

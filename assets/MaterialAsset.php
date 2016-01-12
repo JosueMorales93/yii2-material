@@ -24,7 +24,7 @@ class MaterialAsset extends AssetBundle
         'js/jquery-2.1.4.min.js',
         'js/bootstrap.min.js',
         'js/plugins/metisMenu/jquery.metisMenu.js',
-        'js/plugins/slimScroll/jquery.slimscroll.min.js',
+        'js/plugins/slimscroll/jquery.slimscroll.min.js',
         'js/material.js'
     ];
 

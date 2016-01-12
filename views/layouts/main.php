@@ -8,16 +8,13 @@ use app\assets\AppAsset;
 use app\assets\MaterialAsset;
 use kartik\icons\FontAwesomeAsset;
 use yii\materialicons\AssetBundle;
-use wii\materialize\MaterializeAsset;
 
 //Inicialización de Assets
-//MaterializeAsset::register($this);
 AssetBundle::register($this);
 FontAwesomeAsset::register($this);
-
 MaterialAsset::register($this);
 AppAsset::register($this);
-//
+
 
 ?>
 <?php $this->beginPage() ?>

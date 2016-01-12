@@ -63,6 +63,7 @@ use yii\widgets\Menu
                 ]],
                  ['label' => '<i class="fa fa-dashboard"></i><span>Debug</span>', 'url' => ['/debug']],
                  ['label' => '<i class="fa fa-file-code-o"></i><span>Gii</span>', 'url' => ['/gii']],
+                 ['label' => '<i class="fa fa-file-code-o"></i><span>Test</span>', 'url' => ['site/contact']],
              ],
          ]);
     ?>
